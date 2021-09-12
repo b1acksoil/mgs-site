@@ -1,6 +1,6 @@
 <template>
-  <div id="home-view">
-    
+  <div id="home-view" class="page-view">
+    <h1>南昌三中手极社音游部</h1>
   </div>
 </template>
 
@@ -10,7 +10,7 @@ import { defineComponent } from 'vue'
 // import  from ''
 
 export default defineComponent({
-  name: '',
+  name: 'HomeView',
   components: {  },
   setup() {
     return {
@@ -21,5 +21,8 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-
+h1 {
+  width: 100%;
+  text-align: center;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="about-view">
+  <div id="about-view" class="page-view">
     
   </div>
 </template>
@@ -10,7 +10,7 @@ import { defineComponent } from 'vue'
 // import  from ''
 
 export default defineComponent({
-  name: '',
+  name: 'AboutView',
   components: {  },
   setup() {
     return {
