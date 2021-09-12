@@ -1,5 +1,25 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div id="about-view">
+    
   </div>
 </template>
+
+<script>
+import { defineComponent } from 'vue'
+
+// import  from ''
+
+export default defineComponent({
+  name: '',
+  components: {  },
+  setup() {
+    return {
+      
+    }
+  }
+})
+</script>
+
+<style lang="scss" scoped>
+
+</style>
