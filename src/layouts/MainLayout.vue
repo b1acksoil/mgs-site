@@ -2,19 +2,27 @@
   <div id="main-layout">
     <div id="nav-bg"></div>
     <NavMenu />
+
     <div id="page-view">
       <router-view />
     </div>
+
+    <Footer />
+  </div>
+
+  <div id="footer-copyright">
+    &copy; 南昌三中手极社音游部 2021
   </div>
 </template>
 
 <script>
 import { defineComponent, ref } from 'vue'
 import NavMenu from '../components/NavMenu.vue'
+import Footer from '../components/Footer.vue'
 
 export default defineComponent({
   name: 'MainLayout',
-  components: { NavMenu },
+  components: { NavMenu, Footer },
   setup() {
     const navBarStyle = ref({})
 
@@ -27,9 +35,9 @@ export default defineComponent({
     })
 
     return {
-      navBarStyle
+      navBarStyle,
     }
-  }
+  },
 })
 </script>
 
@@ -57,5 +65,14 @@ export default defineComponent({
   width: calc(100% - 40px);
   min-height: 900px;
   background-color: #292929;
+}
+
+#footer-copyright {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  background: url('../assets/img/nav-bg.jpg');
+  color: white;
 }
 </style>
