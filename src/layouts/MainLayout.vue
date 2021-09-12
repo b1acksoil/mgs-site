@@ -67,6 +67,12 @@ export default defineComponent({
   background-color: #292929;
 }
 
+.page-view {
+  box-sizing: border-box;
+  color: #fff;
+  padding: 40px 60px;
+}
+
 #footer-copyright {
   width: 100%;
   box-sizing: border-box;
