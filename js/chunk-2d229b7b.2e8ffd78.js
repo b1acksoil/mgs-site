@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d229b7b"],{df47:function(e,n,t){"use strict";t.r(n);var c=t("7a23"),s={id:"news-view",class:"page-view"};function i(e,n,t,i,w,r){return Object(c["s"])(),Object(c["e"])("div",s)}var w=Object(c["j"])({name:"NewsView",components:{},setup:function(){return{}}});w.render=i;n["default"]=w}}]);
-//# sourceMappingURL=chunk-2d229b7b.2e8ffd78.js.map
