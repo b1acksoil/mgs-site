@@ -1,0 +1,35 @@
+.md-body {
+  line-height: 2em;
+
+  h1, h2, h3, h4, h5, h6 {
+    border-left: 10px #fff solid;
+    padding-left: 10px;
+  }
+
+  blockquote {
+    box-sizing: border-box;
+    border-left: 5px rgba(255, 255, 255, 0.6) solid;
+    margin: 0;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  a {
+    color: rgb(11, 158, 255);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  hr {
+    margin: 30px 0;
+  }
+  
+  code {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+    padding: 0 4px;
+  }
+}

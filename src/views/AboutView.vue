@@ -1,6 +1,7 @@
 <template>
   <div id="about-view" class="page-view">
-    
+    <h1 class="page-title">关于</h1>
+    <hr>
   </div>
 </template>
 

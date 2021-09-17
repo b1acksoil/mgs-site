@@ -1,13 +1,15 @@
 <template>
   <div id="main-layout">
-    <div id="nav-bg"></div>
-    <NavMenu />
+    <div id="nav-bg" v-if="isDesktop"></div>
+    <NavBar v-if="isDesktop" />
+    
+    <NavBarMobile v-else />
 
     <div id="page-view">
       <router-view />
     </div>
 
-    <Footer />
+    <Footer v-if="isDesktop" />
   </div>
 
   <div id="footer-copyright">
@@ -16,32 +18,63 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
-import NavMenu from '../components/NavMenu.vue'
+import { defineComponent, ref, provide } from 'vue'
+import NavBar from '../components/NavBar.vue'
+import NavBarMobile from '../components/Mobile/NavBarMobile.vue'
 import Footer from '../components/Footer.vue'
 
 export default defineComponent({
   name: 'MainLayout',
-  components: { NavMenu, Footer },
+  components: {
+    NavBar, NavBarMobile,
+    Footer
+  },
   setup() {
-    const navBarStyle = ref({})
+    const navLinks = [
+      {
+        path: '/home',
+        name: '首页',
+        icon: 'home',
+      },
+      {
+        path: '/news',
+        name: '新闻',
+        icon: 'newspaper',
+      },
+      {
+        path: '/videos',
+        name: '手元',
+        icon: 'video',
+      },
+      {
+        path: '/members',
+        name: '成员',
+        icon: 'user',
+      },
+      {
+        path: '/about',
+        name: '关于',
+        icon: 'heart',
+      },
+    ]
 
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 100) {
-        navBarStyle.value = { backgroundColor: '#eee' }
-      } else {
-        navBarStyle.value = {}
-      }
+    let isDesktop = ref(window.screen.width >= 768)
+
+    window.addEventListener('resize', () => {
+      isDesktop.value = (window.screen.width >= 768)
     })
+    
+    provide('navLinks', navLinks)
+    provide('isDesktop', isDesktop)
 
     return {
-      navBarStyle,
+      isDesktop
     }
   },
 })
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import '../assets/scss/vars.scss';
 
 #main-layout {
@@ -61,7 +94,7 @@ export default defineComponent({
 }
 
 #page-view {
-  margin-top: $nav-menu-height + 25px;
+  margin-top: $nav-bar-height + 25px;
   width: calc(100% - 40px);
   min-height: 900px;
   background-color: #292929;
@@ -71,6 +104,11 @@ export default defineComponent({
   box-sizing: border-box;
   color: #fff;
   padding: 40px 60px;
+
+}
+
+.page-title {
+  text-align: center;
 }
 
 #footer-copyright {
@@ -80,5 +118,21 @@ export default defineComponent({
   text-align: center;
   background: url('../assets/img/nav-bg.jpg');
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #main-layout {
+    width: 100%;
+  }
+
+  #page-view {
+    margin-top: 100px;
+    // width: 100%;
+  }
+
+  .page-view {
+    padding: 20px;
+    position: relative;
+  }
 }
 </style>

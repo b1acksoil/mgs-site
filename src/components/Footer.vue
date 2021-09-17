@@ -3,7 +3,7 @@
     <div id="footer-links">
 
       <div class="footer-links-col">
-        <p class="footer-title">友情链接</p>
+        <p class="footer-title">实用工具</p>
         <a href="https://616.sb/">纯净音游下载站</a><br>
         <a href="https://map.bemanicn.com/">全国音游地图</a>
       </div>
@@ -18,8 +18,9 @@
       </div>
 
       <div class="footer-links-col">
-        <p class="footer-title">音游论坛</p>
-        <a href="https://tieba.baidu.com/f?ie=utf-8&kw=%E9%9F%B3%E6%B8%B8">音游吧</a>
+        <p class="footer-title">友情链接</p>
+        <a href="http://www.jxncsz.cn/">南昌三中官网</a><br>
+        <a href="https://tieba.baidu.com/f?ie=utf-8&kw=%E9%9F%B3%E6%B8%B8">音游吧</a><br>
       </div>
 
     </div>
@@ -66,6 +67,7 @@ export default defineComponent({
 
       a {
         font-size: 15px;
+        line-height: 24px;
         color: #fff;
         text-decoration: none;
 
