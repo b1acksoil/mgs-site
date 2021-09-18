@@ -14,7 +14,8 @@
         <a href="https://arcaea.lowiro.com/zh">Arcaea</a><br>
         <a href="http://www.peroperogames.com/">Muse Dash</a><br>
         <a href="http://m.mugzone.net/">Malody</a><br>
-        <a href="https://osu.ppy.sh/home">Osu</a>
+        <a href="https://osu.ppy.sh/home">Osu</a><br>
+        <a href="https://cytoid.io/">Cytoid</a>
       </div>
 
       <div class="footer-links-col">
