@@ -31,6 +31,10 @@
         <p class="member-grade">{{ member.grade }} 届 {{ member.class }} 班</p>
       </div>
     </div>
+
+    <p>注：若已为音游部成员但没有录入进成员名单，请在群内 @ 音游部部长或发起私聊，附上自己的班级和姓名（如 2021届3班 陈家乐）</p>
+
+    <p id="rank-notice">*排名不分先后</p>
   </div>
 </template>
 
@@ -90,6 +94,12 @@ export default defineComponent({
       margin: 0 0 5px 0;
     }
   }
+}
+
+#rank-notice {
+  margin-top: 100px;
+  text-align: center;
+  font-style: italic;
 }
 
 @media screen and (max-width: 768px) {

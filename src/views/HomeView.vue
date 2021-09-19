@@ -14,6 +14,8 @@
     <p>我们致力于为三中音游爱好者提供一个和谐有爱（目害）的交流氛围</p>
 
     <p id="contact-info">QQ群 / 953863576</p>
+
+    <p id="motto">「全三中音游人联合起来！」</p>
   </div>
 </template>
 
@@ -72,6 +74,12 @@ p#main-info {
 
 p#contact-info {
   margin-top: 40px;
+}
+
+p#motto {
+  margin-top: 70px;
+  font-style: italic;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 768px) {

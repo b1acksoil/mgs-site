@@ -4,24 +4,26 @@
 
       <div class="footer-links-col">
         <p class="footer-title">实用工具</p>
-        <a href="https://616.sb/">纯净音游下载站</a><br>
-        <a href="https://map.bemanicn.com/">全国音游地图</a>
+        <a target="_blank" href="https://616.sb/">纯净音游下载站</a><br>
+        <a target="_blank" href="https://map.bemanicn.com/">全国音游地图</a><br>
+        <a target="_blank" href="https://taiko.bui.pm/">太鼓达人网页版 1</a><br>
+        <a target="_blank" href="https://tg.lv5.ac/">太鼓达人网页版 2</a>
       </div>
 
       <div class="footer-links-col">
         <p class="footer-title">音游官网</p>
-        <a href="https://pigeon-games.com/">Phigros</a><br>
-        <a href="https://arcaea.lowiro.com/zh">Arcaea</a><br>
-        <a href="http://www.peroperogames.com/">Muse Dash</a><br>
-        <a href="http://m.mugzone.net/">Malody</a><br>
-        <a href="https://osu.ppy.sh/home">Osu</a><br>
-        <a href="https://cytoid.io/">Cytoid</a>
+        <a target="_blank" href="https://pigeon-games.com/">Phigros</a><br>
+        <a target="_blank" href="https://arcaea.lowiro.com/zh">Arcaea</a><br>
+        <a target="_blank" href="https://osu.ppy.sh/home">osu!</a><br>
+        <a target="_blank" href="http://www.peroperogames.com/">Muse Dash</a><br>
+        <a target="_blank" href="http://m.mugzone.net/">Malody</a><br>
+        <a target="_blank" href="https://cytoid.io/">Cytoid</a>
       </div>
 
       <div class="footer-links-col">
         <p class="footer-title">友情链接</p>
-        <a href="http://www.jxncsz.cn/">南昌三中官网</a><br>
-        <a href="https://tieba.baidu.com/f?ie=utf-8&kw=%E9%9F%B3%E6%B8%B8">音游吧</a><br>
+        <a target="_blank" href="http://www.jxncsz.cn/">南昌三中官网</a><br>
+        <a target="_blank" href="https://tieba.baidu.com/f?ie=utf-8&kw=%E9%9F%B3%E6%B8%B8">音游吧</a><br>
       </div>
 
     </div>

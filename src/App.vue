@@ -2,6 +2,27 @@
   <router-view />
 </template>
 
+<script>
+export default {
+  setup() {
+    console.log(String.raw
+`
+
+ __  __   _____   _____  _ 
+|  \/  | / ____| / ____|| |
+| \  / || |  __ | (___  | |
+| |\/| || | |_ | \___ \ | |
+| |  | || |__| | ____) ||_|
+|_|  |_| \_____||_____/ (_)
+
+Welcome to Music Game Section Offical Site!
+
+`
+    )
+  },
+}
+</script>
+
 <style lang="scss">
 @import 'assets/scss/vars.scss';
 

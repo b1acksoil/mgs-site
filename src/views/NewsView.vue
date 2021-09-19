@@ -68,12 +68,11 @@ export default defineComponent({
       .then((res) => {
         newsList.value = res.data
 
-        getNews(res)
-
         watch(() => route.params, (newParams) => {
-          console.log(newParams)
           isInNews.value = (newParams.newsId != undefined)
           getNews(res)
+        }, {
+          immediate: true
         })
 
       }).catch((err) => {
