@@ -10,6 +10,8 @@
       <p>在音游部，这一切都不再是幻想！</p>
       <p>我们，不再是孤身一人——</p>
       <p>「全三中音游人联合起来！」</p>
+
+      <p id="contact-info">QQ群 / 953863576</p>
     </div>
 
     <hr>
@@ -72,6 +74,10 @@ export default defineComponent({
 
 #about-content {
   text-align: center;
+
+  #contact-info {
+    margin-top: 50px;
+  }
 }
 
 #changelog-list {
