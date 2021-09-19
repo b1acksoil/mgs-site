@@ -1,7 +1,7 @@
 <template>
   <div id="nav-bar" :style="navBarStyle">
     <div id="nav-menu">
-      <a href="/home"><img src="../assets/img/logo/logo.png" alt="Home"/></a>
+      <a href="/home"><img src="https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master/img/logo/logo.png" alt="Home"/></a>
       <router-link
         class="nav-menu-link"
         v-for="(link, index) in navLinks"

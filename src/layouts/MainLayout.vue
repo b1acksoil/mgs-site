@@ -90,7 +90,7 @@ export default defineComponent({
   left: 0;
   width: 100%;
   height: $nav-bg-height;
-  background: url('../assets/img/nav-bg.jpg');
+  background: url('https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master/img/nav-bg.jpg');
 }
 
 #page-view {
@@ -116,7 +116,7 @@ export default defineComponent({
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
-  background: url('../assets/img/nav-bg.jpg');
+  background: url('https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master/img/nav-bg.jpg');
   color: white;
 }
 

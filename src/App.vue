@@ -30,7 +30,7 @@ Welcome to Music Game Section Offical Site!
 
 @font-face {
   font-family: 'Harmony OS Sans';
-  src: url('assets/font/HarmonyOS_Sans.ttf');
+  src: url('https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master/fonts/HarmonyOS_Sans.ttf');
 }
 
 * {

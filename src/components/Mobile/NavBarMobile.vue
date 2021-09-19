@@ -1,6 +1,6 @@
 <template>
   <div id="nav-bar-mobile">
-    <a href="/"><img src="../../assets/img/logo/logo.png" alt="Home"></a>
+    <a href="/"><img src="https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master/img/logo/logo.png" alt="Home"></a>
 
     <button
       @click="isMenuOpen = !isMenuOpen"

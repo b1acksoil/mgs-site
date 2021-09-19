@@ -1,6 +1,6 @@
 <template>
   <div id="home-view" class="page-view">
-    <img id="banner-img" src="../assets/img/home-banner.png" alt="">
+    <img id="banner-img" src="https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master/img/home-banner.png" alt="">
 
     <h1>欢迎来到南昌三中手极社音游部</h1>
 

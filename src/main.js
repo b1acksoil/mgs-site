@@ -1,6 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import axios from 'axios'
+
+axios.defaults.baseURL = 'https://cdn.jsdelivr.net/gh/b1acksoil/mgs-site-assets@master'
 
 // FontAwesome Icons
 import { library } from '@fortawesome/fontawesome-svg-core'
